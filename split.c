@@ -162,7 +162,7 @@ int split_commands(data_shell *datash, char *input)
 	free_sep_list(&head_s);
 	free_line_list(&head_l);
 
-	if (loop == 0
+	if (loop == 0)
 		return (0);
 	return (1);
 }
@@ -208,7 +208,3 @@ char **split_line(char *input)
 	}
 	return (tokens);
 }
-
-
-
-
